@@ -69,7 +69,7 @@
 #  endif
 #endif /* __sun */
 
-#if not defined __BYTE_ORDER
+#ifndef __BYTE_ORDER
 #error __BYTE_ORDER not set
 #endif
 
